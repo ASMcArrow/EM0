@@ -15,11 +15,8 @@ public:
     DetectorConstruction() {}
     ~DetectorConstruction() {}
 
-    G4VPhysicalVolume* Construct();
-
-private:
-    void InitializeMaterials();
-    std::map <std::string, G4Material*> MaterialMap;};
+    G4VPhysicalVolume* Construct();    
+};
 
 #endif
 
